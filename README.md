@@ -51,6 +51,8 @@ When compiling the link was not good, so solution:
 }
 ```
 
+**BUT**, when I ran the index.html with github pages and the links didn't work, so my real solution was to import the links from _typography.scss but pretending I was importing them from the main.css. Which fixed the compilation issues nicely.
+
 ## Author
 
 - Frontend Mentor - [@MrLanter](https://www.frontendmentor.io/profile/MrLanter)
