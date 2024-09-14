@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+  font-weight: 400;
+}
+
+body {
+  line-height: 1.6;
+}
+
+@font-face {
+  font-family: "Young-Serif";
+  src: url("/src/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/src/assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+.strong {
+  font-weight: 700;
+}
+
+.color-rose-800 {
+  color: hsl(332, 51%, 32%);
+}
+
+.color-brown-800 {
+  color: hsl(14, 45%, 36%);
+}
+
+.color-stone-600 {
+  color: hsl(30, 10%, 34%);
+}
+
+.separation-line {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 1px solid hsl(30, 18%, 87%);
+  height: 0;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.separation-line-ul {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 1px solid hsl(30, 18%, 87%);
+  height: 0;
+  width: 100%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 800px;
+  margin-top: 150px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 900px) {
+  .card {
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+  }
+}
+.card header .img-container {
+  padding: 50px;
+  position: relative;
+}
+@media (max-width: 900px) {
+  .card header .img-container {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+}
+.card header .img-container img {
+  border-radius: 20px;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .card header .img-container img {
+    border-radius: 0;
+  }
+}
+.card header .title {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young-Serif", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-left: 50px;
+}
+.card header .description {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card .preparation-time {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.card .preparation-time .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card .preparation-time ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .preparation-time ul li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 0.8rem;
+}
+.card .preparation-time ul p {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+.card .ingredients {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.card .ingredients h2 {
+  font-family: "Young-Serif", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.card .ingredients ul {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 0.8rem;
+}
+.card .ingredients ul p {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+.card .instructions {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.card .instructions .title {
+  font-weight: 400;
+  font-family: "Young-Serif", sans-serif;
+  font-size: 2rem;
+}
+.card .instructions ol {
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+.card .instructions ol p {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+.card .nutrition {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card .nutrition .title {
+  font-family: "Young-Serif", sans-serif;
+  font-size: 2rem;
+}
+.card .nutrition .description {
+  margin-top: 20px;
+}
+.card .nutrition ul {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.card .nutrition ul li {
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+}
+.card .nutrition ul p:nth-child(1) {
+  color: hsl(30, 10%, 34%);
+}
+.card .nutrition ul p:nth-child(2) {
+  position: absolute;
+  margin-left: 44%;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 0.68rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #603224;
+}
+
+/*# sourceMappingURL=main.css.map */

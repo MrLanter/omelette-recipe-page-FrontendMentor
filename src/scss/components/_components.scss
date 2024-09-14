@@ -1,0 +1,35 @@
+.strong {
+    font-weight: 700;
+}
+
+.color-rose-800 {
+    color: $Rose-800;
+}
+
+.color-brown-800 {
+    color: $Brown-800;
+}
+
+.color-stone-600 {
+    color: $Stone-600;
+}
+
+.separation-line {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 1px solid $Stone-150;
+    height: 0;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separation-line-ul {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 1px solid $Stone-150;
+    height: 0;
+    width: 100%;
+}
