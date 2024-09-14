@@ -179,7 +179,7 @@ main {
 }
 .card .instructions {
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .card .instructions .title {
   font-weight: 400;
@@ -203,7 +203,7 @@ main {
   font-size: 1rem;
 }
 .card .nutrition {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -224,14 +224,14 @@ main {
 .card .nutrition ul li {
   list-style: none;
   display: flex;
-  margin-left: 20px;
 }
 .card .nutrition ul p:nth-child(1) {
   color: hsl(30, 10%, 34%);
+  margin-left: 20px;
 }
 .card .nutrition ul p:nth-child(2) {
   position: absolute;
-  margin-left: 44%;
+  margin-left: 48%;
   font-weight: 700;
   color: hsl(14, 45%, 36%);
 }
